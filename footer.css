@@ -1,0 +1,80 @@
+html{
+    position:relative;
+    min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+    margin:0;
+    padding:0;
+}
+.pageContentWrapper{
+
+    margin-bottom:10px;/* Height of footer*/
+    width: 100%;
+
+}
+body {
+    background-color: #D4D4D4;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:30px;
+    background: none;
+    /*background-color: aqua; */
+    width: 100%;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    height: 20px;
+    width: 160px;
+    background-color: none;
+    border-style: none;
+    border-width: 2px;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: none;
+
+
+
+
+}
+
+
+div style
+{
+    position:relative;
+    width: 140px;
+    height: 19px;
+    border: 1px solid;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+

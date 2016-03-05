@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="forlogin.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="Pinpagedesign.css" />
+    <link rel="stylesheet" href="DropDownCardSharing.css" />
+
+    <h1>Vallet</h1>
+</head>
+    <title>Card Sharing</title>
+</head>
+<body>
+
+<br>
+<h3>Click Time Auth For User to select in minutes how long user can have access to your card of choosing</h3><br><br><br>
+
+
+<ul>
+    <
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Time For Auth User</a>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="#">15</a>
+            <a href="#">30</a>
+            <a href="#">45</a>
+
+        </div>
+    </li>
+</ul>
+
+
+
+
+<script>
+    /* When the user clicks on the button,
+     toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            for (var d = 0; d < dropdowns.length; d++) {
+                var openDropdown = dropdowns[d];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+
+
+
+
+<div class="footer">
+
+<div style>
+
+
+</div>
+
+<ul>
+
+    <li><a class="active" href="pgnotworkingyet.html">Email Us</a></li>
+    <li><a href="pgnotworkingyet.html">Feedback</a></li>
+    <li><a href="pgnotworkingyet.html">Contact</a></li>
+    <li><a href="pgnotworkingyet.html">Login</a></li>
+
+
+</body>
+</html>

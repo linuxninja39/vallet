@@ -1,0 +1,56 @@
+body {
+    background-color: #D4D4D4;
+    text-align: center;
+}
+
+p {
+    color: #545454;
+    text-align: center;
+}
+
+p a:hover {
+    background-color: #111;
+}
+
+
+a {
+    color: #545454;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+input {
+    background-color: #7A99C5;
+    font-family: Impact;
+    color:
+    width: 30px;
+    height: 30px;
+    -webkit-text-security: disc;
+
+
+}
+
+style {
+    position:relative;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+div style {
+    position:relative;
+    width: 140px;
+    height: 19px;
+    border: 1px solid;
+}
+
+.meganIsCute {
+    background-color: blue;
+}
+
+.title {
+    color=cadetblue;
+}
