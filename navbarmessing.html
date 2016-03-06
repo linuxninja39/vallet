@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="Pinpagedesign.css" />
+    <link rel="stylesheet" href="navbar.css" />
+
+
+
+    <h1>Vallet</h1>
+
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <div class="overlay-content">
+        <a href="HomePage.html">Home</a>
+        <a href="#">Account Setting</a>
+        <a href="AddCard.html">Add Card</a>
+        <a href="CardSharing.html">Card Sharing</a>
+        <a href="#">Log Out</a>
+        </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+</body>
+</html>
