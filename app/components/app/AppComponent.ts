@@ -1,9 +1,9 @@
 /**
  * Created by jaboswell on 3/4/16.
  */
-import {Component} from '../../node_modules/angular2/core.d';
-import {HeroInterface} from '../shared/models/HeroInterface.ts';
-import {HeroDetailComponent} from 'HeroDetailComponent.ts';
+import {Component} from '../../../node_modules/angular2/core.d.ts';
+import {HeroInterface} from '../../shared/models/HeroInterface.ts';
+import {HeroDetailComponent} from '../HeroDetailComponent.ts';
 
 
 

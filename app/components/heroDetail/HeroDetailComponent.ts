@@ -3,8 +3,8 @@
  */
 
 
-import {Component} from '../../node_modules/angular2/core.d';
-import {HeroInterface} from '../shared/models/HeroInterface.ts';
+import {Component} from '../../../node_modules/angular2/core.d.ts';
+import {HeroInterface} from '../../shared/models/HeroInterface.ts';
 
 @Component({
     selector: 'my-hero-detail',
