@@ -1,21 +1,15 @@
-import {Component} from 'angular2/core';
+import {Component, View} from 'angular2/core';
+import {ROUTER_DIRECTIVES,RouteConfig,Router} from "angular2/router";
 import {HeroDetailComponent} from '../heroDetail/HeroDetailComponent'
 import {HeroInterface} from '../../shared/models/HeroInterface.ts';
 
 @Component({
     selector: 'my-app',
-    template: `
-    <h1>My {{title}} App</h1>
-    <div>
-        My Heros
-        <ul>
-            <li *ngFor="#hero of heros">
-                <span class="badge">{{hero.id}}</span> {{hero.name}}
-            </li>
-        </ul>
-    </div>
-    `
+    templateUrl: 'app/components/app/AppTemplate.html',
+    directives: [HeroDetailComponent, ROUTER_DIRECTIVES]
 })
+@RouteConfig([
+])
 export class AppComponent {
     public title = "Sweet Angular";
     public heros: HeroInterface[] = [
